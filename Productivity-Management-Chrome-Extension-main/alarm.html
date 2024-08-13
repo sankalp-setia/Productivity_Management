@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALARM</title>
+    <link rel="stylesheet" href="alarmcss.css">
+    <link rel="icon" href="http://pngimg.com/uploads/alarm_clock/alarm_clock_PNG49.png">
+</head>
+<body>
+    <h1 style="color: rgb(0, 0, 0);" >Set Alarm in 24hr Format &#9200</h1><br>
+    <br>
+    <br>
+    <br>
+<p style="font-size: 20px ;color: aliceblue;" ><b>Enter the Time in this Format--- HH:MM:SS </b></p>
+    <div>
+    <label  for="alarmhrs"><b>Hour</b> </label>
+     <input  value="00" style="margin-left: 38px;padding: 5px;font-size: large;" type="text" id="alarmhrs">
+    </div>
+   
+   <div>
+   <label for="alarmmins"><b> Minutes </b></label>
+   <input value="00"  style="margin-left: 6px;padding: 5px;font-size: large;" type="text" id="alarmmins">
+</div>
+ <div>
+   <label   for="alarmsecs"><b>Seconds</b></label>
+   <input value="00"  style="margin-left: 9px;padding: 5px;font-size: large;" type="text" id="alarmsecs"><br>
+</div>
+   <br>
+   <button style="margin-left: 30px;" id="alarmset"><b> Set </b></button><br>
+   <!-- <img style="position: absolute;top: 8px;right:5px; height: 500px;width: 600px;" src="http://pngimg.com/uploads/alarm_clock/alarm_clock_PNG49.png" alt=""> -->
+   <div class="clockdiva">
+    <div class="clock">
+        <div class="analoghour">
+            <div class="ahr" id="ahr"></div>
+        </div>
+        <div class="analogmin">
+            <div class="amn" id="amn"></div>
+        </div>
+        <div class="analogsec">
+            <div class="asc" id="asc"></div>
+        </div>
+        </div>
+   </div>
+   <script src="alarmjs.js"></script>
+</body>
+</html>

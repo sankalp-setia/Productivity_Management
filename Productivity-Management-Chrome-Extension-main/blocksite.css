@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+	margin: auto;
+	padding: 40px;
+	box-sizing: border-box;
+}
+section{
+    width: 100%;
+	height: 100vh;
+	background: linear-gradient(-45deg,#deee52,#72d7e9,#cdb2e7,#23D5AB);
+background-size: 400% 400%;
+position: relative;
+animation: change 10s ease-in-out infinite;
+     
+      
+}
+h1
+{
+    color: black;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+text-shadow: 2px 2px 5px red;
+}
+textarea
+{
+    font-size: 15px;
+    padding: 5px;
+    height: 350px;
+    width: 500px;
+    border: 5px solid black;
+    box-shadow: 3px 3px rgb(250, 94, 94);
+}
+/* button {
+    border-radius: 40px;
+    background: linear-gradient(90deg,#0162c8,#55e7fc);
+    border: 2px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    overflow: hidden;
+  } */
+  a
+  {
+      position: relative;
+      display: inline-block;
+      padding: 12px 36px;
+      margin:10px 0;
+      color: black;
+      text-decoration:none;
+      text-transform: uppercase;
+      font-size: 14px;
+      background: linear-gradient(90deg,#755bea,#ff72c0);
+      border-radius: 40px;
+      overflow: hidden;
+      border: 2px solid black;
+  }
+  strong
+  {
+      font-size: 20px;
+      
+  }
+  #checkbox
+  {
+      height: 17px;
+      width: 17px;
+  }
+  @keyframes change
+  {
+      0%{
+          background-position: 0 50%;
+      }
+      50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+  }
+  span{
+      position: absolute;
+      background: #fff;
+      transform:translate(-50%,-50%);
+      animation: animate 1s linear infinite;
+border-radius: 50%;
+pointer-events: none;
+  }
+  @keyframes animate
+  {
+      0%{
+          width:0px;
+          height: 0px;
+opacity:0.5 ;
+      }
+      100%{
+        width:500px;
+        height: 500px;
+        opacity: 0;
+
+    }
+  }

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>countdown</title>
+    <link rel="stylesheet" href="styletimer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap" rel="stylesheet">
+  
+    
+</head>
+<body>
+    <p class="c" style=" 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+   ;
+    font-size: 40px;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    padding-left: 40px;
+    font-family: 'Sansita Swashed', cursive;">Timer</p><br>
+    <div class="wrapper">
+        <div class="display">
+   <p id="countdown"></p><br>
+</div>
+<span></span>
+<span></span>
+</div>
+   <p  style=" 
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+   font-size: 40px;
+   height: 40px;
+   width: 200px;
+   padding-left: 40px;
+   text-align: center;
+   font-family: 'Sansita Swashed', cursive;color: aquamarine;">Set Time</p>
+   <br>
+   
+    <label style="font-size: 20px;
+    color: rgb(80, 214, 231);" for="hrs">Hour</label>
+     <input value="0" style="margin-left: 39px;
+     background-color: rgb(200, 240, 252);" type="text" id="hrs">
+   <br>
+   <label style="font-size: 20px;
+   color: rgb(80, 214, 231);;" for="mins">Minutes</label>
+   <input value="0" style="margin-left: 12px; background-color: rgb(200, 240, 252);" type="text" id="mins">
+   <br>
+   <label style="font-size: 20px;
+   color: rgb(80, 214, 231);"  for="secs">Seconds</label>
+   <input value="0" style="margin-left: 4px; background-color: rgb(200, 240, 252);" type="text" id="secs"><br>
+   <button style="margin-left: 140px;background-color: greenyellow;"  id="set">Set</button><br>
+   <button style="margin-left: 118px ;background-color: greenyellow" id="Blocksite" >Block Site</button><br>
+   <button style="margin-left: 117px;background-color: greenyellow" id="Todolist">To-Do List</button><br>
+   <button style="margin-left: 109px;background-color: greenyellow" id="Breaktime">Take a Break</button><br>
+   <button style="margin-left: 103px;background-color: greenyellow" id="alarm" >Set Alarm Time</button>
+   <script src="popup.js"></script>
+
+    
+    
+
+</body>
+</html>
